@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    font-family: serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+}
+
+#header-stuff {
+    justify-content: space-between;
+}
+
+.header-logo, .call {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header, .hero, .content, .quote-section, .box, .footer {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    text-wrap: wrap;
+    overflow: hidden;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.text {
+    margin-right: 4%;
+}
+
+.hero, .content {
+    display: flex;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sec-text , a, .box{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-button, #box-stuff {
+    background-color: #3882F6;
+}
+
+.hero-button, .box-button{
+    width: auto;
+    padding: 1%;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+.main-text, .info-header, .quote-credit, .call {
+    font-weight: 900;
+}
+
+.main-text, .sec-text {
+    text-align: left;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-button, .content img,  #box-stuff, .box-button{
+    border-radius: 8px;
+}
+
+.hero-button, .content img {
+    margin-top: 3%;
+}
+
+.content .container, .image, .quote-section .container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-section .container {
+    align-items: center;
+    gap: 5%;
+}
+
+.info-header, .quote, .image {
+    color: #1F2937;
+}
+
+.info-header {
+    font-size: 36px;
+}
+
+.images, .info-header, .quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    gap: 8px;
+}
+
+.image {
+    width: 200px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    width: 60%;
+}
+
+.quote-credit {
+    font-size: 14px;
+    justify-content: flex-end;
+    padding-top: 2%;
+}
+
+#box-stuff {
+    width: 70%;
+    justify-content: space-between;
+    align-content: center;
+    padding: 4%;
+
+}
+
+.box-button {
+    border: 2px solid #E5E7EB;
+    width: 8%;
+    color: inherit;
+    cursor: pointer;
+}
+
+#footer-thing {
+    justify-content: center;
+}

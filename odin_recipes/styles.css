@@ -1,0 +1,52 @@
+
+body{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.recipes{
+    color: rgb(225, 133, 133);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 50%;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.styling{
+    color: rgb(73, 189, 189);
+}
+
+h5{
+    font-size: 12px;
+    color: rgb(237, 191, 136);
+}
+
+.text{
+    color:rgb(175, 57, 124);
+}
+
