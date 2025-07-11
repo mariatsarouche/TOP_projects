@@ -1,1 +1,1 @@
-All the projects that were created while i was doing The Odin Project.
+All the projects that i made while i was doing The Odin Project.
